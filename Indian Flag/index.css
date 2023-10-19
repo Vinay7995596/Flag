@@ -1,0 +1,145 @@
+.main {
+    display: flex;
+    position: relative;
+    left: 55px;
+}
+
+.main-flag {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    left: -80px;
+}
+
+.orange {
+    background-color: #ff9933;
+    height: 45px;
+    width: 250px;
+}
+
+.white {
+    background-color: #fff;
+    height: 45px;
+    width: 250px;
+}
+
+.green {
+    background-color: #138808;
+    height: 45px;
+    width: 250px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.wheel {
+    outline: 2px solid darkblue;
+    border-radius: 50%;
+    height: 44px;
+    position: relative;
+    width: 44px;
+}
+
+.chakra {
+    background-color: darkblue;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+}
+
+.chakra:nth-child(1) {
+    transform: rotate(15deg);
+}
+
+.chakra:nth-child(2) {
+    transform: rotate(30deg);
+}
+
+.chakra:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+.chakra:nth-child(4) {
+    transform: rotate(60deg);
+}
+
+.chakra:nth-child(5) {
+    transform: rotate(75deg);
+}
+
+.chakra:nth-child(6) {
+    transform: rotate(90deg);
+}
+
+.chakra:nth-child(7) {
+    transform: rotate(105deg);
+}
+
+.chakra:nth-child(8) {
+    transform: rotate(120deg);
+}
+
+.chakra:nth-child(9) {
+    transform: rotate(135deg);
+}
+
+.chakra:nth-child(10) {
+    transform: rotate(150deg);
+}
+
+.chakra:nth-child(11) {
+    transform: rotate(165deg);
+}
+
+.chakra:nth-child(12) {
+    transform: rotate(180deg);
+}
+
+.pipe {
+    background-color: brown;
+    height: 80vh;
+    width: 10px;
+    position: relative;
+    left: 90px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.first-step{
+    height: 30px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.second-step {
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+.third-step {
+    height: 30px;
+    width: 180px;
+    border: 1px solid black;
+}
+
+.steps-container {
+    display: flex;
+    justify-items: center;
+
+}
+
+.flag-with-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
